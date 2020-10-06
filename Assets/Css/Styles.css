@@ -1,0 +1,180 @@
+/* Azul - 004c98 */
+/* Vermelho - f13333 */
+/* Cinza Header - e6e6e6 */
+
+[class*="col-"], header, footer, nav, aside, section, div[role="main"] {
+ /*border: 1px solid #000000;*/
+}
+
+.container-parallax {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: url("../Images/Parallax/COVID.jpg");
+    background-attachment: fixed;
+}
+
+.mixBlnd {
+    background-blend-mode: screen;
+}
+
+.caixa {
+    margin-top: 50px;
+}
+
+
+.btnHomePage {
+    width:250px;
+    height:50px;
+    background-color:#1c5be8;
+    color:#fafafa;
+    position: absolute;
+    margin-top:500px;
+    margin-left:190px;
+}
+
+.btnHomePage:hover {
+    background-color:#d70404;
+    color:#fafafa;
+}
+
+.MsgError {
+    text-align: center;
+}
+
+.TC-txtEmail {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+    .footer-link:hover {
+        color:#ffffff;
+        text-decoration:underline;
+    }
+
+.form-contact {
+    margin-top:5px;
+}
+
+.icons-midias {
+  margin-right: 10px;
+}
+
+/* Maps */
+.map {
+	width:100%;
+	height:500px;	
+}
+
+.map-wrap {
+	position:relative; 
+}
+	
+.overlay {
+	width:100%;
+	min-height:500px; 
+	position:absolute; 
+	top:0;
+}
+
+.gmaps {
+    max-width:100%;
+    height:400px;
+}
+/* ##end## Maps */
+
+.btn-primary {
+    width:100%;
+    height:50px;
+    border-radius: 3px;
+    background-color: #1c5be8;
+    border: none;
+}
+
+    .btn-primary:hover {
+        border-radius: 5px;
+        background-color: #d70404;
+        border: none;
+    }
+
+/* .logotipo {  
+  margin-top: 30px;
+  margin-left: 45px;  
+} */
+.logo-navbar-2 {
+  display: none;
+}
+
+
+.header-text {
+  text-align: center;
+  margin-top:55px;
+  color: #575fce;
+}
+
+/* MAX DEVICE 991PX */
+ @media only screen and (max-width: 991px) {
+  .logo-navbar-1 {
+    display: none;
+  }
+  .logo-navbar-2 {
+    display: initial;
+  }
+
+} 
+
+
+/* MAX DEVICE 650PX */
+@media only screen and (max-width: 650px) {
+  .logotipo {
+  position:absolute;
+  margin-top:20%;
+  margin-left:13%;
+  width:130px;
+  height:140px;
+}
+
+.img-grid {
+width: 500px;
+height: 600px;
+}
+
+.logo-navbar-1 {
+  display: none;
+}
+
+.logo-navbar-2 {
+  display: initial;
+}
+
+}
+
+/* MAX DEVICE 576PX */
+@media only screen and (max-width: 576px) {
+    .caixa {
+        margin-top:0px;
+    }
+}
+
+/* MAX DEVICE 480PX */
+/* @media only screen and (max-width: 480px) {  
+.logotipo {
+  position:absolute;
+  width:300px;
+  height:100px;
+}
+
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+} */
